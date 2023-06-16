@@ -1,4 +1,4 @@
-# Quarkus demo: Hibernate Reactive and RESTEasy Reactive
+# Demonstração do Quarkus: Hibernate Reactive e RESTEasy Reactive
 
 This is a minimal CRUD service exposing a couple of endpoints over REST,
 with a front-end based on Angular so you can play with it from your browser.
