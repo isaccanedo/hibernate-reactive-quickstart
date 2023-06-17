@@ -3,11 +3,11 @@
 Este é um serviço CRUD mínimo que expõe alguns endpoints sobre REST, 
 com um front-end baseado em Angular para que você possa brincar com ele em seu navegador.
 
-While the code is surprisingly simple, under the hood this is using:
- - RESTEasy Reactive to expose the REST endpoints
- - Hibernate Reactive to perform the CRUD operations on the database
- - A PostgreSQL database; see below to run one via Docker
- - ArC, the CDI inspired dependency injection tool with zero overhead
+Embora o código seja surpreendentemente simples, sob o capô isso está usando:
+ - RESTEasy Reactive para expor os endpoints REST
+  - Hibernate Reactive para executar as operações CRUD no banco de dados
+  - Um banco de dados PostgreSQL; veja abaixo para executar um via Docker
+  - ArC, a ferramenta de injeção de dependência inspirada em CDI com sobrecarga zero
 
 ## Requirements
 
