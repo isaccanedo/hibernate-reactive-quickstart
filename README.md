@@ -9,7 +9,7 @@ Embora o código seja surpreendentemente simples, sob o capô isso está usando:
   - Um banco de dados PostgreSQL; veja abaixo para executar um via Docker
   - ArC, a ferramenta de injeção de dependência inspirada em CDI com sobrecarga zero
 
-## Requirements
+## Requisitos
 
 To compile and run this demo you will need:
 
