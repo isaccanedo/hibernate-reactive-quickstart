@@ -11,7 +11,7 @@ Embora o código seja surpreendentemente simples, sob o capô isso está usando:
 
 ## Requisitos
 
-To compile and run this demo you will need:
+Para compilar e executar esta demonstração, você precisará:
 
 - JDK 11+
 - GraalVM
