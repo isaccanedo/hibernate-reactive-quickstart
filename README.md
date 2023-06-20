@@ -16,7 +16,7 @@ Para compilar e executar esta demonstração, você precisará:
 - JDK 11+
 - GraalVM
 
-In addition, you will need either a PostgreSQL database, or Docker to run one.
+Além disso, você precisará de um banco de dados PostgreSQL ou do Docker para executá-lo.
 
 ### Configuring GraalVM and JDK 11+
 
