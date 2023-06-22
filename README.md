@@ -18,7 +18,7 @@ Para compilar e executar esta demonstração, você precisará:
 
 Além disso, você precisará de um banco de dados PostgreSQL ou do Docker para executá-lo.
 
-### Configuring GraalVM and JDK 11+
+### Configurando GraalVM e JDK 11+
 
 Make sure that both the `GRAALVM_HOME` and `JAVA_HOME` environment variables have
 been set, and that a JDK 11+ `java` command is on the path.
