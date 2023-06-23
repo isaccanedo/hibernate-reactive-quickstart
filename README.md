@@ -23,8 +23,8 @@ Além disso, você precisará de um banco de dados PostgreSQL ou do Docker para 
 Certifique-se de que as variáveis de ambiente `GRAALVM_HOME` e `JAVA_HOME` tenham
 definido e que um comando JDK 11+ `java` está no caminho.
 
-See the [Building a Native Executable guide](https://quarkus.io/guides/building-native-image)
-for help setting up your environment.
+Consulte o [Guia de criação de um executável nativo](https://quarkus.io/guides/building-native-image)
+para obter ajuda na configuração do seu ambiente.
 
 ## Building the demo
 
