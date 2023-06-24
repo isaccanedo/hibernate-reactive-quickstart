@@ -26,7 +26,7 @@ definido e que um comando JDK 11+ `java` está no caminho.
 Consulte o [Guia de criação de um executável nativo](https://quarkus.io/guides/building-native-image)
 para obter ajuda na configuração do seu ambiente.
 
-## Building the demo
+## Construindo a demonstração
 
 Launch the Maven build on the checked out sources of this demo:
 
