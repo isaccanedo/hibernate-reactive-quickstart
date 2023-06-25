@@ -32,9 +32,9 @@ Launch the Maven build on the checked out sources of this demo:
 
 > ./mvnw package
 
-## Running the demo
+## Executando a demonstração
 
-### Live coding with Quarkus
+### Codificação ao vivo com Quarkus
 
 The Maven Quarkus plugin provides a development mode that supports
 live coding. To try this out:
