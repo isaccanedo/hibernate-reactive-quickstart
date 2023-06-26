@@ -28,7 +28,7 @@ para obter ajuda na configuração do seu ambiente.
 
 ## Construindo a demonstração
 
-Launch the Maven build on the checked out sources of this demo:
+Inicie a compilação do Maven nas fontes verificadas desta demonstração:
 
 > ./mvnw package
 
