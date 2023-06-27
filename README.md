@@ -36,8 +36,8 @@ Inicie a compilação do Maven nas fontes verificadas desta demonstração:
 
 ### Codificação ao vivo com Quarkus
 
-The Maven Quarkus plugin provides a development mode that supports
-live coding. To try this out:
+O plugin Maven Quarkus fornece um modo de desenvolvimento que suporta
+codificação ao vivo. Para experimentar:
 
 > ./mvnw quarkus:dev
 
