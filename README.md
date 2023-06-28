@@ -41,10 +41,10 @@ codificação ao vivo. Para experimentar:
 
 > ./mvnw quarkus:dev
 
-In this mode you can make changes to the code and have the changes immediately applied, by just refreshing your browser.
+Neste modo você pode fazer alterações no código e ter as alterações aplicadas imediatamente, apenas atualizando seu navegador.
 
-Hot reload works even when modifying your JPA entities.
-Try it! Even the database schema will be updated on the fly.
+O hot reload funciona mesmo ao modificar suas entidades JPA.
+Tente! Até mesmo o esquema do banco de dados será atualizado em tempo real.
 
 ### Run Quarkus in JVM mode
 
