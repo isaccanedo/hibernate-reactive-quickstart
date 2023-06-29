@@ -46,12 +46,12 @@ Neste modo você pode fazer alterações no código e ter as alterações aplica
 O hot reload funciona mesmo ao modificar suas entidades JPA.
 Tente! Até mesmo o esquema do banco de dados será atualizado em tempo real.
 
-### Run Quarkus in JVM mode
+### Execute o Quarkus no modo JVM
 
-When you're done iterating in developer mode, you can run the application as a
-conventional jar file.
+Quando terminar de iterar no modo de desenvolvedor, você pode executar o aplicativo como um
+arquivo jar convencional.
 
-First compile it:
+Primeiro compile-o:
 
 > ./mvnw package
 
