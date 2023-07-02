@@ -62,7 +62,7 @@ Em seguida, precisamos garantir que você tenha uma instância do PostgreSQL em 
 Connection properties for the Agroal datasource are defined in the standard Quarkus configuration file,
 `src/main/resources/application.properties`.
 
-Then run it:
+Em seguida, execute-o:
 
 > java -jar ./target/quarkus-app/quarkus-run.jar
 
