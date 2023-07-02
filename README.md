@@ -66,8 +66,8 @@ Em seguida, execute-o:
 
 > java -jar ./target/quarkus-app/quarkus-run.jar
 
-Have a look at how fast it boots.
-Or measure total native memory consumption...
+Dê uma olhada em quão rápido ele inicializa.
+Ou meça o consumo total de memória nativa...
 
 ### Run Quarkus as a native application
 
