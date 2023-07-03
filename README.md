@@ -69,16 +69,16 @@ Em seguida, execute-o:
 Dê uma olhada em quão rápido ele inicializa.
 Ou meça o consumo total de memória nativa...
 
-### Run Quarkus as a native application
+### Execute o Quarkus como um aplicativo nativo
 
-You can also create a native executable from this application without making any
-source code changes. A native executable removes the dependency on the JVM:
-everything needed to run the application on the target platform is included in
-the executable, allowing the application to run with minimal resource overhead.
+Você também pode criar um executável nativo a partir deste aplicativo sem fazer nenhum
+alterações no código-fonte. Um executável nativo remove a dependência da JVM:
+tudo o que é necessário para executar o aplicativo na plataforma de destino está incluído no
+o executável, permitindo que o aplicativo seja executado com sobrecarga mínima de recursos.
 
-Compiling a native executable takes a bit longer, as GraalVM performs additional
-steps to remove unnecessary codepaths. Use the  `native` profile to compile a
-native executable:
+A compilação de um executável nativo demora um pouco mais, pois o GraalVM executa
+etapas para remover codepaths desnecessários. Use o perfil `native` para compilar um
+executável nativo:
 
 > ./mvnw package -Dnative
 
