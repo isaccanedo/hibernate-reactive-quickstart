@@ -86,8 +86,8 @@ Depois de tomar uma xícara de café, você poderá executar este binário diret
 
 > ./target/hibernate-reactive-quickstart-1.0.0-SNAPSHOT-runner
 
-Please brace yourself: don't choke on that fresh cup of coffee you just got.
-    
+Por favor, prepare-se: não engasgue com aquela xícara de café fresco que você acabou de tomar.
+
 Now observe the time it took to boot, and remember: that time was mostly spent to generate the tables in your database and import the initial data.
     
 Next, maybe you're ready to measure how much memory this service is consuming.
