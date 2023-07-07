@@ -90,7 +90,7 @@ Por favor, prepare-se: não engasgue com aquela xícara de café fresco que voc�
 
 Now observe the time it took to boot, and remember: that time was mostly spent to generate the tables in your database and import the initial data.
     
-Next, maybe you're ready to measure how much memory this service is consuming.
+Em seguida, talvez você esteja pronto para medir quanta memória esse serviço está consumindo.
 
 N.B. This implies all dependencies have been compiled to native;
 that's a whole lot of stuff: from the bytecode enhancements that Hibernate ORM
