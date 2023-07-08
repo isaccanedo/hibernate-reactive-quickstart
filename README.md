@@ -92,9 +92,9 @@ Now observe the time it took to boot, and remember: that time was mostly spent t
     
 Em seguida, talvez você esteja pronto para medir quanta memória esse serviço está consumindo.
 
-N.B. This implies all dependencies have been compiled to native;
-that's a whole lot of stuff: from the bytecode enhancements that Hibernate ORM
-applies to your entities, to the lower level essential components such as the PostgreSQL JDBC driver, the Undertow webserver.
+N.B. Isso implica que todas as dependências foram compiladas para nativas;
+isso é um monte de coisas: desde os aprimoramentos de bytecode que o Hibernate ORM
+aplica-se às suas entidades, aos componentes essenciais de nível inferior, como o driver PostgreSQL JDBC, o servidor web Undertow.
 
 ## See the demo in your browser
 
