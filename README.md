@@ -88,7 +88,7 @@ Depois de tomar uma xícara de café, você poderá executar este binário diret
 
 Por favor, prepare-se: não engasgue com aquela xícara de café fresco que você acabou de tomar.
 
-Now observe the time it took to boot, and remember: that time was mostly spent to generate the tables in your database and import the initial data.
+Agora observe o tempo que levou para inicializar e lembre-se: esse tempo foi gasto principalmente para gerar as tabelas em seu banco de dados e importar os dados iniciais.
     
 Em seguida, talvez você esteja pronto para medir quanta memória esse serviço está consumindo.
 
