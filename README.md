@@ -106,10 +106,10 @@ Divirta-se e junte-se à equipe de colaboradores!
 
 ## Executando a demonstração no Kubernetes
 
-This section provides extra information for running both the database and the demo on Kubernetes.
-As well as running the DB on Kubernetes, a service needs to be exposed for the demo to connect to the DB.
+Esta seção fornece informações extras para executar o banco de dados e a demonstração no Kubernetes.
+Além de executar o banco de dados no Kubernetes, um serviço precisa ser exposto para que a demonstração se conecte ao banco de dados.
 
-Then, rebuild demo docker image with a system property that points to the DB. 
+Em seguida, reconstrua a imagem do docker de demonstração com uma propriedade do sistema que aponte para o banco de dados.
 
 ```bash
 -Dquarkus.datasource.reactive.url=jdbc:postgresql://<DB_SERVICE_NAME>/quarkus_test
