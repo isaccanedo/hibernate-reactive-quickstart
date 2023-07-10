@@ -96,15 +96,15 @@ N.B. Isso implica que todas as dependências foram compiladas para nativas;
 isso é um monte de coisas: desde os aprimoramentos de bytecode que o Hibernate ORM
 aplica-se às suas entidades, aos componentes essenciais de nível inferior, como o driver PostgreSQL JDBC, o servidor web Undertow.
 
-## See the demo in your browser
+## Veja a demonstração em seu navegador
 
-Navigate to:
+Navegar para:
 
 <http://localhost:8080/index.html>
 
-Have fun, and join the team of contributors!
+Divirta-se e junte-se à equipe de colaboradores!
 
-## Running the demo in Kubernetes
+## Executando a demonstração no Kubernetes
 
 This section provides extra information for running both the database and the demo on Kubernetes.
 As well as running the DB on Kubernetes, a service needs to be exposed for the demo to connect to the DB.
