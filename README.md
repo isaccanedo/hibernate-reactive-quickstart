@@ -88,7 +88,7 @@ Depois de tomar uma xícara de café, você poderá executar este binário diret
 
 Por favor, prepare-se: não engasgue com aquela xícara de café fresco que você acabou de tomar.
 
-Now observe the time it took to boot, and remember: that time was mostly spent to generate the tables in your database and import the initial data.
+Agora observe o tempo que levou para inicializar e lembre-se: esse tempo foi gasto principalmente para gerar as tabelas em seu banco de dados e importar os dados iniciais.
     
 Em seguida, talvez você esteja pronto para medir quanta memória esse serviço está consumindo.
 
@@ -96,20 +96,20 @@ N.B. Isso implica que todas as dependências foram compiladas para nativas;
 isso é um monte de coisas: desde os aprimoramentos de bytecode que o Hibernate ORM
 aplica-se às suas entidades, aos componentes essenciais de nível inferior, como o driver PostgreSQL JDBC, o servidor web Undertow.
 
-## See the demo in your browser
+## Veja a demonstração em seu navegador
 
-Navigate to:
+Navegar para:
 
 <http://localhost:8080/index.html>
 
-Have fun, and join the team of contributors!
+Divirta-se e junte-se à equipe de colaboradores!
 
-## Running the demo in Kubernetes
+## Executando a demonstração no Kubernetes
 
-This section provides extra information for running both the database and the demo on Kubernetes.
-As well as running the DB on Kubernetes, a service needs to be exposed for the demo to connect to the DB.
+Esta seção fornece informações extras para executar o banco de dados e a demonstração no Kubernetes.
+Além de executar o banco de dados no Kubernetes, um serviço precisa ser exposto para que a demonstração se conecte ao banco de dados.
 
-Then, rebuild demo docker image with a system property that points to the DB. 
+Em seguida, reconstrua a imagem do docker de demonstração com uma propriedade do sistema que aponte para o banco de dados.
 
 ```bash
 -Dquarkus.datasource.reactive.url=jdbc:postgresql://<DB_SERVICE_NAME>/quarkus_test
