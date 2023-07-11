@@ -59,7 +59,7 @@ Em seguida, precisamos garantir que você tenha uma instância do PostgreSQL em 
 
 > docker run -it --rm=true --name quarkus_test -e POSTGRES_USER=quarkus_test -e POSTGRES_PASSWORD=quarkus_test -e POSTGRES_DB=quarkus_test -p 5432:5432 postgres:13.3
 
-Connection properties for the Agroal datasource are defined in the standard Quarkus configuration file,
+As propriedades de conexão para a fonte de dados Agroal são definidas no arquivo de configuração padrão do Quarkus,
 `src/main/resources/application.properties`.
 
 Em seguida, execute-o:
