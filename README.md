@@ -109,6 +109,8 @@ Divirta-se e junte-se à equipe de colaboradores!
 Esta seção fornece informações extras para executar o banco de dados e a demonstração no Kubernetes.
 Além de executar o banco de dados no Kubernetes, um serviço precisa ser exposto para que a demonstração se conecte ao banco de dados.
 
+## Reconstua a imagem docker
+
 Em seguida, reconstrua a imagem do docker de demonstração com uma propriedade do sistema que aponte para o banco de dados.
 
 ```bash
